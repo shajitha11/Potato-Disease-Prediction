@@ -17,6 +17,8 @@ potato-disease-prediction/
  ├── sample_leaf.jpg
  └── README.md 
 
+Dataset used: PlantVillage
+
 Technologies Used
   Python
   Numpy
