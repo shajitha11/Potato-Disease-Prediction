@@ -1,0 +1,28 @@
+ Potato Disease Prediction Using Deep Learning
+
+A deep learning-based image classification model that detects "potato leaf diseases" from images.
+Trained using Convolutional Neural Networks (CNNs) on a labeled dataset of potato leaf images. 
+
+This project can identify:
+    Early Blight  
+    Late Blight  
+    Healthy
+ 
+ Project Structure
+
+potato-disease-prediction/
+ │ ├── potato_disease_model.h5 
+ ├── predict.py 
+ ├── requirements.txt 
+ ├── sample_leaf.jpg
+ └── README.md 
+
+Technologies Used
+  Python
+  Numpy
+  Matplotlib
+  Tensorflow/keras
+
+Main Script
+predict.py: This is the main script that takes in a potato leaf image, preprocesses it, and uses the trained model to predict the disease type and output the confidence percentage.
+
